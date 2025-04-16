@@ -15,12 +15,12 @@ jobs:
 
       - name: Send JSON Data to First URL
         run: |
-          curl -X POST "https://:HWUDvKf_SEuq1jpsEzxOFg@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:bY9qgNmnSGe37jUX0UDOcw/streams/AQAAADiloSEc6kJ4mxF90-KUv4gAAAAA" \
+          curl -X POST "https://:87AzTk70QciVVauaHkrCdQ@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:bY9qgNmnSGe37jUX0UDOcw/streams/AQAAAMVbGv94K0qcmXv1gQ8NWGkAAAAA" \
                -H "Content-Type: application/json" \
                -d @stream.json
 
       - name: Send JSON Data to Second URL
         run: |
-          curl -X POST "https://:nJTTloUkQ7aa3wv9lRUgEQ@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:bY9qgNmnSGe37jUX0UDOcw/streams/AQAAAC--1EHwfEzfrsqnOz3oyUEAAAAA" \
+          curl -X POST "https://:e9WF3noLR1aR0FbQGHSWTw@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:bY9qgNmnSGe37jUX0UDOcw/streams/AQAAAAxOT9TTUUe2p8aLbKjMt-sAAAAA" \
                -H "Content-Type: application/json" \
                -d @stream.json
